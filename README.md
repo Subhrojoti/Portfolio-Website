@@ -32,4 +32,4 @@ In the skills section, I showcase my proficiency in various technologies, progra
 
 The projects section features a curated collection of my notable projects, each accompanied by a brief description, screenshots, and links to the live demo or GitHub repository.
 
-## Installation
+

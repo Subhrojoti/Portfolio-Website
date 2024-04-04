@@ -4,7 +4,7 @@ import myPic from "../assets/mypic.png";
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "Video Editor", "Gamer", "Youtuber"],
+    words: ["Web Developer", "Video Editor", "Youtuber"],
     loop: {},
     typeSpeed: 120,
   });
@@ -24,7 +24,7 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={myPic} alt="" className="md:w-11/12 h-full object-cover" />
+        <img src={myPic} alt="" className="md:w-2/3 h-full object-cover" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">

@@ -2,6 +2,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.jpg";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -20,6 +22,18 @@ const Project = () => {
       name: "Get Youtube Subscriber",
       github_link: "https://github.com/Subhrojoti/Get-YouTube-Subscriber",
       live_link: "https://get-you-tube-subscriber-rho.vercel.app/",
+    },
+    {
+      img: project3,
+      name: "Weather App",
+      github_link: "https://github.com/Subhrojoti/Weather-App",
+      live_link: "https://atmosphere.netlify.app/",
+    },
+    {
+      img: project4,
+      name: "PortFolio Website",
+      github_link: "https://github.com/Subhrojoti/Portfolio-Website",
+      live_link: "https://subhrojoti-portfolio.netlify.app/",
     },
   ];
   return (

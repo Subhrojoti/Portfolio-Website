@@ -4,6 +4,8 @@ import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.jpg";
+import project5 from "../assets/project5.jpg";
+import project6 from "../assets/project6.jpg";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -34,6 +36,18 @@ const Project = () => {
       name: "PortFolio Website",
       github_link: "https://github.com/Subhrojoti/Portfolio-Website",
       live_link: "https://subhrojoti-portfolio.netlify.app/",
+    },
+    {
+      img: project5,
+      name: "Amazon UI Clone",
+      github_link: "https://github.com/Subhrojoti/Amazon-UI-Clone",
+      live_link: "https://jungle-kart.netlify.app/",
+    },
+    {
+      img: project6,
+      name: "Entertainment App (Full Stack App)",
+      github_link: "https://github.com/Subhrojoti/Entertainment-App",
+      live_link: "https://entertainment-app-dusky.vercel.app/",
     },
   ];
   return (
